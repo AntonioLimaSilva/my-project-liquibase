@@ -4,7 +4,7 @@ databaseChangeLog:
     author: luciano (barao)
     changes:
     - createTable:
-        tableName: user
+        tableName: tb_user
         columns:
         - column:
             name: id
@@ -31,7 +31,7 @@ databaseChangeLog:
     author: luciano (barao)
     changes:
     - insert:
-        tableName: user
+        tableName: tb_user
         columns:
         - column:
               name: id
@@ -49,7 +49,7 @@ databaseChangeLog:
             name: active
             value: "t"
     - insert:
-        tableName: user
+        tableName: tb_user
         columns:
         - column:
               name: id
